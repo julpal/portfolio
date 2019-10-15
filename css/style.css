@@ -111,7 +111,7 @@ nav li {
 .images{
   grid-row: 3 / 7;
   grid-column: 2 / 4;
-  padding-left: 7px;
+  text-align: center;
 }
 
 .cinque img {
