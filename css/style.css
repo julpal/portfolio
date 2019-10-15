@@ -30,12 +30,17 @@ h4 {
   font-weight: bold;
 }
 
+a.selected {
+  font-weight: bold;
+}
+
 .nav ul {
   padding-bottom: 30px;
 }
 
 a {
   text-decoration: none;
+  color: purple;
 }
 
 nav li {
@@ -68,7 +73,7 @@ nav li {
 .container {
   display: grid;
   grid-template-columns: 30px auto auto 30px;
-  grid-template-rows: 160px auto auto auto auto auto 100px;
+  grid-template-rows: 100px auto auto auto auto auto 100px;
 }
 
 .name h1{
@@ -87,7 +92,9 @@ nav li {
 
 .pic-me {
   padding-top: 30px;
+  grid-column: 3 / 4;
   grid-row: 4;
+
 }
 
 .nav {
