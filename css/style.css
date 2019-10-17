@@ -183,23 +183,32 @@ p {
   font-family: futura;
 }
 
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+input[type=text]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #00274c;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
 }
 
 
 .submit {
   font-family: futura;
+  font-size: 15px;
   color: white;
   background-color: #00274c;
   width:100px;
+  height:30px;
+  border-radius: 4px;
+}
+
+.contact legend {
+  font-size: 20px;
+  text-align: center;
 }
 
 .fa {
@@ -209,6 +218,7 @@ input[type=text], select, textarea {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+  border-radius: 4px;
 }
 
 .fa:hover {
