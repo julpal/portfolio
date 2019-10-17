@@ -106,6 +106,27 @@ p > a {
   text-align: center;
 }
 
+/* .umsi {
+  grid-column: 1 / 4;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.peregrinas {
+  grid-column: 1 / 4;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.brick {
+  grid-column: 1 / 4;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+} */
+
 .pic-me {
   padding-top: 30px;
   grid-column: 3 / 4;
@@ -170,6 +191,30 @@ p > a {
   max-width: 300px;
 }
 
+.brussels img {
+  max-width: 300px;
+}
+
+.rocks img {
+  max-width: 300px;
+}
+
+.ice img {
+  max-width: 300px;
+}
+
+.tree img {
+  max-width: 300px;
+}
+
+.pis img {
+  max-width: 300px;
+}
+
+.redflowers img {
+  max-width: 300px;
+}
+
 p {
   padding-left: 15px;
 }
@@ -204,6 +249,11 @@ input[type=text]{
   width:100px;
   height:30px;
   border-radius: 4px;
+}
+
+.submit:hover {
+  opacity: 0.5;
+  cursor: auto;
 }
 
 .contact legend {
