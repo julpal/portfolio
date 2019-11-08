@@ -82,12 +82,11 @@ p > a {
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 20px;;
-    /* max-width: 1200px; */
   }
 
 .gallery > img{
   margin: 10px;
-  max-width: 90%;
+  width: 200px;
 }
 
 .container {
@@ -275,6 +274,11 @@ input[type=text]{
   .gallery{
       grid-column: 1 / 6;
       justify-content: center;
+    }
+
+    .gallery > img{
+      margin: 10px;
+      width: 300px;
     }
 
 
