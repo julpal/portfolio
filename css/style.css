@@ -86,8 +86,7 @@ p > a {
 
 .gallery > img{
   margin: 10px;
-  max-width: 90%;
-  height:auto !important;
+  width: 90%;
 }
 
 img:hover {
