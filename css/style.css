@@ -82,7 +82,7 @@ p > a {
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 20px;;
-    max-width: 1200px;
+    /* max-width: 1200px; */
   }
 
 .gallery > img{
@@ -151,7 +151,7 @@ p > a {
 }
 
 .nav {
-  grid-column: 1 / 4;
+  grid-column: 1 / 5;
   grid-row: 2;
   text-align: center;
 }
