@@ -294,7 +294,6 @@ input[type=text]{
 .footer{
   color: white;
   position: sticky;
-  bottom: 0;
   grid-column: 1 / 5;
   text-align: center;
 }
