@@ -5,7 +5,7 @@ html{
 body {
   font-family: futura;
   background-color: white;
-  color: #536878;
+  color: #585858
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -68,7 +68,7 @@ nav li {
 
 .nav a:hover{
   font-weight: bold;
-  color: #943855;
+  color: #585858;
 }
 
 p > a {
@@ -86,7 +86,12 @@ p > a {
 
 .gallery > img{
   margin: 10px;
-  max-width: 90%;
+  max-width: 300px;
+}
+
+img:hover {
+  opacity: .7;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .container {
@@ -109,7 +114,33 @@ p > a {
 
 .top-text h2 {
   font-size: 30px;
+  color: #943855;
 }
+
+.top-text h2 {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+
+  75% {
+  font-size: 300%;
+  margin-left: 25%;
+  width: 150%;
+}
+}
+
+
 
 .top-text h3 {
   font-size: 20px;
@@ -128,6 +159,7 @@ p > a {
   padding-right: 10px;
   padding-bottom: 20px;
   text-align: center;
+  color: #585858;
 }
 
 .rainy {
@@ -136,15 +168,14 @@ p > a {
 }
 
 .rainy img {
-  border: 5px solid #536878
+  border: 5px solid #585858
 }
 
 .pic-me img {
-  border: 5px solid #536878
+  border: 5px solid #585858
 }
 
 .pic-me {
-  padding-top: 30px;
   grid-column: 3 / 4;
   grid-row: 4;
 }
@@ -159,6 +190,11 @@ p > a {
   padding-left: 15px;
   padding-right: 15px;
   grid-column: 1 / span 4;
+  color: #585858;
+}
+
+.about h2{
+  color: #943855;
 }
 
 p {
@@ -172,6 +208,7 @@ p {
   padding-right: 20px;
   padding-bottom: 20px;
   font-family: futura;
+  color: #585858;
 }
 
 .resume{
@@ -423,7 +460,7 @@ input[type=text]{
   }
 
   .pic-me {
-    padding-top: 80px;
+    padding-top: 50px;
     padding-left: 50px;
     grid-column: 5 / 7;
     grid-row: 3;
