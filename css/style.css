@@ -87,7 +87,7 @@ p > a {
 
 .gallery > img{
   margin: 10px;
-  max-width: 200px;
+  max-width: 90%;
 }
 
 .container {
