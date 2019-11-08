@@ -81,12 +81,12 @@ p > a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 20px;;
+    padding-top: 20px;
   }
 
 .gallery > img{
   margin: 10px;
-  width: 200px;
+  max-width: 90%;
 }
 
 .container {
